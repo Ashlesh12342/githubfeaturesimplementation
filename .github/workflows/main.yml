@@ -26,8 +26,8 @@ jobs:
       with: 
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
-        registry: docker.pkg.github.com
-        repository: ashlesh12342/springboot/springbootbackend
+        registry: ghcr.io
+        repository: ashlesh12342/githubfeaturesimplementation/springbootbackend
         tags: ${{ github.run_number }}
 
 
